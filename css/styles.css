@@ -40,3 +40,12 @@ footer {
     padding: 10px;
     color: white;
 }
+
+.iconos{
+    color: white;
+}
+
+.iconos:hover{
+    color: lemonchiffon;
+    transform: scale(1.10);
+}
