@@ -19,7 +19,7 @@ document.getElementById("idnav").innerHTML = `
                 <a class="nav-link" href="estudios.html">Estudios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="proyectos.html">Proyectos</a>
+                <a class="nav-link" href="habilidades.html">Habilidades</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
