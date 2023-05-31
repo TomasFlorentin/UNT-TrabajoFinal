@@ -26,27 +26,34 @@ header p {
     margin-top: 40px;
 }
 
-/* Acerca de Mi */
-
-
-/* Estudios */
-
-
-/* Proyectos */
-
-
-/* Footer */
-footer {
-    background-color: black;
-    padding: 10px;
-    color: white;
-}
-
 .iconos{
     color: white;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 .iconos:hover{
     color: lemonchiffon;
-    transform: scale(1.10);
 }
+
+/* Acerca de Mi */
+
+
+/* Estudios */
+#estudios{
+    height: 98vh;
+}
+
+/* Habilidades */
+.titulo-habilidades{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.progress{
+    margin-bottom: 30px;
+}
+
+/* Proyectos */
+
+
