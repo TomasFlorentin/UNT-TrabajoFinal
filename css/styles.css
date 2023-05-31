@@ -37,6 +37,10 @@ header p {
 }
 
 /* Acerca de Mi */
+#acerca{
+    height: 100vh;
+    margin-top: 56px;
+}
 
 
 /* Estudios */
@@ -54,6 +58,8 @@ header p {
     margin-bottom: 30px;
 }
 
-/* Proyectos */
-
+/* Contacto */
+.titulo-contacto{
+    margin-top: 60px;
+}
 
