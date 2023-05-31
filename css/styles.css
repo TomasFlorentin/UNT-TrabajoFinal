@@ -42,16 +42,24 @@ header p {
     margin-top: 56px;
 }
 
-
 /* Estudios */
 #estudios{
-    height: 98vh;
+    height: 94vh;
+    margin-top: 56px;
+}
+
+.card{
+    max-width: 540px;
+}
+
+.tarjetas{
+    margin-top: 15%;
 }
 
 /* Habilidades */
-.titulo-habilidades{
-    font-size: 50px;
-    margin-top: 20px;
+#habilidades{
+    height: 94vh;
+    margin-top: 56px;
 }
 
 .progress{
