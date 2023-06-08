@@ -6,7 +6,7 @@ const cuadrosDeTexto = document.querySelectorAll("textarea");
 const parrafos = document.querySelectorAll("p");
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-// Función para poner el texto de cada parrafo en un cuadro de texto
+// Función para poner el texto de cada párrafo en un cuadro de texto
 function textoEnCuadros(cuadrosDeTexto, parrafos){
     for (let i = 0; i < parrafos.length; i++){
         cuadrosDeTexto[i].value = parrafos[i].textContent;
@@ -17,12 +17,19 @@ function textoEnCuadros(cuadrosDeTexto, parrafos){
 textoEnCuadros(cuadrosDeTexto, parrafos);
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
+// función para editar los párrafos
 function editarParrafos(){
     var textoCuadro1 = document.getElementById("message-text-1").value;
     var textoCuadro2 = document.getElementById("message-text-2").value;
     var textoCuadro3 = document.getElementById("message-text-3").value;
-    parrafos[0].innerHTML = textoCuadro1;
-    parrafos[1].innerHTML = textoCuadro2;
-    parrafos[2].innerHTML = textoCuadro3;
+    for (i = 0; i < parrafos.length; i++){
+        parrafos[i].innerHTML = eval("textoCuadro" + (i+1));
+    }
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+// función para borrar los párrafos
+
+function borrarParrafos(){
+    
 }
