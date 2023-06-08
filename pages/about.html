@@ -29,8 +29,7 @@
                         </h2>
                         <p id="parrafo1">Futuro desarrollador Front End, con muchas ganas de aprender a usar las tecnologías relacionadas con el desarrollo. Actualmente me encuentro realizando un curso de "Programación Web Inicial" de la Universidad Tecnológica Nacional(UTN) con BA Multiplica y a la par cursando la carrera Licenciatura en Sistemas en la Universidad Nacional de Lujan (UNLu).</p>
                         <p id="parrafo2">En mis tiempos libres, disfruto de hacer música (se tocar Guitarra y Piano) y de leer libros. Además de eso me gusta experimentar haciendo proyectos propios para mejorar mis conocimientos del area de programación.</p>
-                        <p id="parrafo3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque iusto repellendus amet maiores quae vel voluptate aperiam hic distinctio quaerat temporibus sint blanditiis veritatis, molestias dolor, modi corporis incidunt esse.
-                        Rem ex animi, numquam consequuntur nemo maxime. Eaque repudiandae totam, accusantium nam maxime incidunt dolorum quas animi modi, fugit debitis autem eum distinctio ut rem quam id reiciendis velit aut.</p>
+                        <p id="parrafo3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque iusto repellendus amet maiores quae vel voluptate aperiam hic distinctio quaerat temporibus sint blanditiis veritatis, molestias dolor, modi corporis incidunt esse. Rem ex animi, numquam consequuntur nemo maxime. Eaque repudiandae totam, accusantium nam maxime incidunt dolorum quas animi modi, fugit debitis autem eum distinctio ut rem quam id reiciendis velit aut.</p>
                         
                         <!-- Boton modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEditar">Editar</button>
@@ -76,6 +75,8 @@
                                     <div class="modal-body">
                                         <form>
                                             <div class="mb-3">
+                                                <strong>Apretar el botón confirmar antes de editar :)</strong>
+                                                <br>
                                                 <label for="message-text" class="col-form-label">Parrafo 1:</label>
                                                 <!-- Cuadro de dialogo parrafo 1 -->
                                                 <textarea class="form-control" id="message-text-1"></textarea>
@@ -94,7 +95,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                        <button type="button" id="btn-guardar" onclick="editarParrafos()" class="btn btn-primary">Guardar Cambios</button>
                                     </div>
                                 </div>
                             </div>
