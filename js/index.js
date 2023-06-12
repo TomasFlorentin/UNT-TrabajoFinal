@@ -30,6 +30,14 @@ function editarParrafos(){
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 // función para borrar los párrafos
 
-function borrarParrafos(){
-    
+function borrarParrafo1(){
+    parrafos[0].remove();
+}
+
+function borrarParrafo2(){
+    parrafos[1].remove();
+}
+
+function borrarParrafo3(){
+    parrafos[2].remove();
 }
